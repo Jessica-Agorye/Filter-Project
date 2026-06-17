@@ -1,0 +1,60 @@
+/* Center the table on the page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f6fa;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Table styling */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Header */
+thead {
+  background-color: #4a90e2;
+  color: white;
+}
+
+th {
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+}
+
+/* Table cells */
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Alternate row colors */
+tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Input styling */
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #4a90e2;
+}
