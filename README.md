@@ -2,13 +2,13 @@
 
 ## About
 
-This project shows how a simple filter function. It demonstrates how to filter data in Javascript using the filter() method,mapp()  and also how to use state to handle the search.
+This project shows how a simple filter function. It demonstrates how to filter data in JavaScript using the filter() method, map (),  and how to use state to handle the search.
 
 ## Features
 
-- Search users by thier firstname
+- Search users by their first name
 - case sensitive search
-- Dynamic filtering using useState hook
+- Dynamic filtering using the useState hook
 
 ## Technologies
 
@@ -26,5 +26,5 @@ This project shows how a simple filter function. It demonstrates how to filter d
 ## What I Learned
 
 - How filter() works
-- How the state controls the input instead of the browser which is why we set value in input to the current state e.g value={search}
-- the importance of toLowerCase to eliminate case sensitivity, in other words if the user types in capital letter it wouldnt affct how data is being filtered.
+- How the state controls the input instead of the browser, which is why we set the value in the input to the current state, e.g., value={search}
+- The importance of toLowerCase to eliminate case sensitivity, in other words, if the user types in a capital letter, it wouldn't affect how data is being filtered.
