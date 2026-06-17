@@ -2,7 +2,7 @@
 
 ## About
 
-This project shows how a simple filter function. It demonstrates how to filter data in Javascript using the filter() method, and also how to use state to handle the search.
+This project shows how a simple filter function. It demonstrates how to filter data in Javascript using the filter() method,mapp()  and also how to use state to handle the search.
 
 ## Features
 
